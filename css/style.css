@@ -6,73 +6,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #0c0c0c;
     background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
 }
-
-/* Smooth animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Button Hover Animations */
-.btn-1,
-.btn-2 {
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    transition: transform 0.3s, background-color 0.3s;
-}
-
-.btn-1:hover {
-    transform: scale(1.05);
-    background-color: #ffc107;
-    color: #fff;
-}
-
-.btn-2:hover {
-    transform: scale(1.05);
-    background-color: #003366;
-    color: #FFD700;
-}
-
-/* Static Image Section */
-.static_image_section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url('../images/1.avif') no-repeat center center/cover;
-    height: 90vh;
-    text-align: center;
-    color: #fff;
-    animation: fadeIn 1s ease-in-out;
-}
-
-.static_image_section h1 span {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #FFD700;
-}
-/* html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    color: #0c0c0c;
-    background-color: #ffffff;
-} */
 
 .layout_padding {
     padding: 75px 0;
@@ -105,114 +39,6 @@ body {
 
 .hero_next_section-margin {
     margin-top: 100px;
-}
-
-
-/* General Styles */
-body {
-    font-family: "Roboto", sans-serif;
-    color: #0c0c0c;
-    margin: 0;
-    background-color: #ffffff;
-}
-
-.hero_area {
-    background-color: #336699;
-    min-height: 85vh;
-}
-
-.header_section {
-    background-color: #003366;
-    padding: 10px 0;
-}
-
-.navbar-brand img {
-    width: 100px;
-}
-
-.navbar-brand span {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    margin-left: 10px;
-    text-transform: uppercase;
-}
-
-.nav-link {
-    color: #fefdfc;
-    text-transform: uppercase;
-    padding: 10px 20px;
-    transition: all 0.3s ease;
-}
-
-.nav-link:hover {
-    color: #FFD700;
-    background-color: #004080;
-    border-radius: 5px;
-}
-
-/* Static Image Section */
-.static_image_section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFF8E1;
-    padding: 50px 0;
-}
-
-.static_image_section .image-box img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 12px;
-}
-
-.static_image_section .detail-box {
-    color: #003366;
-}
-
-.static_image_section h1 span {
-    color: #FFD700;
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.static_image_section p {
-    margin-top: 20px;
-    font-size: 1.2rem;
-}
-
-.static_image_section .btn-box {
-    margin-top: 30px;
-}
-
-.btn-1, .btn-2 {
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.btn-1 {
-    background-color: #FFD700;
-    color: #003366;
-}
-
-.btn-1:hover {
-    background-color: #FFC107;
-    color: #fff;
-}
-
-.btn-2 {
-    background-color: #fefdfc;
-    color: #003366;
-    border: 1px solid #003366;
-}
-
-.btn-2:hover {
-    background-color: #003366;
-    color: #FFD700;
 }
 
 /* header section 
@@ -361,7 +187,7 @@ a:focus {
     background-size: 30px;
 }
 
-/* .static_image_section {
+.static_image_section {
     background-image: url(../images/1.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,23 +198,7 @@ a:focus {
     align-items: center;
     padding-top: 50px; 
     margin-top: 20px; 
-} */
-
-.static_image_section {
-    background-image: url(../images/1.avif);
-    background-repeat: no-repeat;
-    background-size: cover; /* Ensure the image covers the entire section */
-    background-position: center; /* Center the background image */
-    width: 90%; 
-    margin: 0 auto; 
-    height: 95vh; /* Use viewport height for dynamic sizing */
-    display: flex; 
-    align-items: center; 
-    justify-content: center; /* Center content horizontally */
-    padding-top: 50px;
-    margin-top: 20px;
 }
-
 
 .about_section .img-box img {
     width: 80%; 
@@ -1043,7 +853,9 @@ h4 {
     }
 }
 
-@media (min-width: 993px) {
+
+
+/* @media (min-width: 993px) {
     .hero_area {
         min-height: 85vh;
     }
@@ -1069,4 +881,4 @@ h4 {
     .brand-item {
         width: 300px; 
     }
-}
+} */
