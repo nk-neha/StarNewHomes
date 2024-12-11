@@ -33,3 +33,34 @@ document.addEventListener("DOMContentLoaded", function () {
         prevScrollpos = currentScrollPos;
     };
 });
+
+document.querySelectorAll(".accordion-header").forEach((header) => {
+  header.addEventListener("click", () => {
+    const accordionItem = header.parentElement;
+
+    // Close any open accordion item
+    document.querySelectorAll(".accordion-item").forEach((item) => {
+      if (item !== accordionItem) {
+        item.classList.remove("open");
+      }
+    });
+
+    // Toggle the current accordion item
+    accordionItem.classList.toggle("open");
+  });
+});
+
+const container = document.querySelector('.projects__container');
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        container.classList.add('animate');
+      }
+    });
+  },
+  { threshold: 0.2 } // Trigger when 20% of the container is visible
+);
+
+observer.observe(container);
+
