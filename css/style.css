@@ -459,7 +459,7 @@ img {
 .cards {
   position: relative;
   background-color: white; /* Ensure background allows visibility */
-  margin-top: 90px;
+  margin-top: 0px;
   padding-bottom: 20px; /* Optional: Adds space around the content */
   border-radius: 10px; /* Optional: Rounded corners */
 }
@@ -1258,7 +1258,7 @@ textarea.contact-input {
   }
 
   .box-area{
-    height: 600px;
+    height: 500px;
   }
 
   .box {
@@ -1282,11 +1282,14 @@ textarea.contact-input {
     bottom: 5px;
     left: 15px;
   }
+  .box-title{
+    padding-right: 2px;
+  }
 }
 
 @media (max-width: 480px) {
   .box-area{
-    height: 295px;
+    height: 400px;
     width: 100%;
     flex-direction: column;
     gap: 6px;
@@ -1331,7 +1334,7 @@ textarea.contact-input {
 /* 2. About */
 @media (min-width: 1025px) and (max-width: 1441px) {
   .about-me {
-    height: 100vh;
+    height: auto;
     margin-bottom: 80px;
     padding-bottom: 20px;
   }
