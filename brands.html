@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About</title>
+  <title>Contact Form</title>
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,49 +33,68 @@
       </div>
     </nav>
   </div>
+  <section class="contact">
+    <div class="contact-container">
+      <span class="contact-big-circle"></span>
+      <div class="contact-form-container">
+        <div class="contact-info">
+          <h3 class="contact-title">Let's get in touch</h3>
+          <p class="contact-text">
+            Contact to know more about our services
+          </p>
 
-  <section class="about-me" id="about-me" style="margin-top: 40px;">
-    <div class="about-me-container">
-      <div class="about-me-flex-container">
-        <div class="about-me-content">
-          <div class="about-me-title">
-            <h1 class="highlight-text" style="font-size:40px;">Our Journey in Realty</h1>
-          </div>
-          <div class="text">
-            <p>
-            <p>
-              Who We Are:
-              At Star New Homes, we are dedicated property experts specializing in connecting you with premium homes and
-              investment opportunities from top-tier builders like Lodha, Godrej, and Runwal. With years of experience
-              in the real estate market, we pride ourselves on offering a curated selection of high-quality residential
-              and commercial properties tailored to meet your lifestyle and aspirations. Whether you are searching for a
-              luxurious home or a sound investment, we ensure a seamless and transparent process to help you make the
-              right choice.
-              <br> <br>Our commitment to excellence and customer satisfaction drives us to go beyond simply selling
-              properties; we build long-lasting relationships with our clients by understanding their needs and
-              delivering exceptional service. With a deep understanding of the market and strong partnerships with
-              leading developers, we are here to guide you every step of the way in your real estate journey. Trust us
-              to make your property dreams a reality.
-
-            </p>
-            </p>
-          </div>
-        </div>
-        <div class="about-me-image">
-          <div class="about-inner-column" data-wow-delay="0ms" data-wow-duration="1500ms">
-            <div class="about-image">
-              <img src="images/owner3.webp" alt="img">
+          <div class="contact-info-list">
+            <div class="contact-information">
+              <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
+              <p>Taloja, Panvel, India</p>
+            </div>
+            <div class="contact-information">
+              <i class="fas fa-envelope"></i> &nbsp &nbsp
+              <p>starnewhomes@gmail.com</p>
+            </div>
+            <div class="contact-information">
+              <i class="fas fa-phone"></i>&nbsp&nbsp
+              <p>(+91) 8451047710</p>
             </div>
           </div>
+
+          <div class="contact-social-media">
+            <a href="tel:9892457482">Connect with us</a>
+          </div>
         </div>
 
-      </div>
-      <div class="button-container">
-        <a href="tel:9892457482" class="outside-button">Call Us</a>
+        <div class="contact-form">
+          <span class="contact-circle one"></span>
+          <span class="contact-circle two"></span>
+
+          <form action="" autocomplete="off">
+            <h3 class="contact-form-title">Contact us</h3>
+            <div class="contact-input-container">
+              <input type="text" name="name" class="contact-input" />
+              <label for="">Your name</label>
+              <span>Username</span>
+            </div>
+            <div class="contact-input-container">
+              <input type="email" name="email" class="contact-input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="contact-input-container">
+              <input type="tel" name="phone" class="contact-input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="contact-input-container contact-textarea">
+              <textarea name="message" class="contact-input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="contact-btn" />
+          </form>
+        </div>
       </div>
     </div>
   </section>
-
   <footer class="footer">
     <div class="footer-left">
       <img src="images/logo.png" alt="Profile Picture" class="u-logo logo" />
@@ -164,5 +183,4 @@
 
   <script src="js/script.js"></script>
 </body>
-
 </html>
