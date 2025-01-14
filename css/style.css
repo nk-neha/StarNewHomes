@@ -1010,10 +1010,11 @@ textarea.contact-input {
   padding: 2rem 0 0 0;
 }
 
-.contact-social-media p {
+.contact-social-media a {
   color: #333;
+  text-decoration: none;
 }
-.contact-social-media p:hover{
+.contact-social-media a:hover{
   text-decoration: underline;
 }
 
@@ -1070,15 +1071,6 @@ textarea.contact-input {
   border-radius: 50%;
   top: calc(50% - 180px);
   left: calc(50% - 180px);
-}
-
-.contact-square {
-  position: absolute;
-  height: 400px;
-  top: 50%;
-  left: 50%;
-  transform: translate(181%, 11%);
-  opacity: 0.2;
 }
 
 
